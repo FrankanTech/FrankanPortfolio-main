@@ -1,0 +1,58 @@
+.FooterClass{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 0px -2px 3px rgba(50, 50, 50, 0.6);
+    position: relative;
+}
+.FooterClass .container ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.FooterClass .container ul li {
+    padding: 15px;
+    display: inline-block;
+}
+
+.CopyRight{
+    text-align: center;
+}
+.CopyRight b{
+    color: black;
+    font-weight: bold;
+}
+.CopyRight b:hover{
+    color: #ec5b53 !important;
+}
+
+.FooterNav{
+    display: flex;
+    justify-content: center;
+}
+
+.FootesocialsrNav ul{
+    list-style-type: none;
+}
+
+.FooterNav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+.FooterNav ul li a:hover{
+    color: #ec5b53;
+}
+
+@media screen and (max-width:450px) {
+    .footer-navbar{
+        flex-direction: column;
+        align-items: center;
+    }
+    .FooterClass .decor-section .d1{
+        display: none;
+    }
+    .FooterClass .decor-section .d4{
+        background-color: rgba(246, 113, 113, .4) !important;
+    }
+}

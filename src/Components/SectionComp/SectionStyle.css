@@ -1,0 +1,80 @@
+
+.main-area{
+    /*background-color: #f9f9ff;*/
+    background-image: url("/src/Assets/Images/MainPic.jpeg");
+    z-index: 1;
+    padding-top: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    box-shadow: 0px 0px 5px 1px black;
+    margin-bottom: 40px;
+}
+.main-area .fullscreen {
+    height: 750px;
+    position: relative;
+}
+
+.main-area .container{
+    margin-left: 10%;
+}
+
+.banner-left h2{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.banner-left h6 {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 5px;
+    color: beige;
+    font-size: 1.5rem;
+}
+.banner-left h1 {
+    margin: 20px 0;
+    font-size: 60px;
+    font-weight: bold;
+    color: #f67171;
+    text-transform: uppercase;
+    text-align: center;
+}
+.banner-left p{
+     color: beige;
+}
+.banner-right {
+    text-align: center;
+}
+
+.home-btn{
+    text-align: center;
+}
+@media screen and (max-width:550px) {
+    .banner-left h1{
+        font-size: 28px;
+    }
+    .main-area .fullscreen{
+        flex-direction: column-reverse;
+        justify-content: unset !important;
+        height: auto;
+    }
+}
+@media (max-width: 767px)
+{
+    .banner-left {
+        margin-top: 25%;
+    }
+}
+@media (max-width: 991px)
+{
+    .main-area .container {
+         margin-left: auto;
+    }
+    .banner-right {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

@@ -1,0 +1,82 @@
+
+.skills-title{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+    background-image: url("/src/Assets/Images/SkillsBack.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 40px;
+}
+
+.skills-title h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    font-size: 8vw;
+    color: rgba(1,1,1, 0.8);
+}
+.ServiceH6{
+    margin-right: auto;
+    margin-left: auto;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+.ServiceHeader{
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;    
+    flex-direction: column;
+    align-items: center;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.single-services {
+    text-align: center;
+    margin-top: 60px;
+}
+.single-services h4 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    font-family:'Times New Roman', Times, serif;
+}
+.single-services p {
+    max-width: 318px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.single-services a{
+    color: black;
+    text-decoration: none;
+}
+
+.single-services h4:hover{
+    color: #ec5b53;
+    font-size: 1.7rem;
+    transition: 0.3s ease 0s;
+}
+.title-space{
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width:780px) {
+    
+    .skills-title h1{
+        font-size: 12vh;
+    } 
+}

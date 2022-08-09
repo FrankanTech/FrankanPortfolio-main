@@ -1,0 +1,55 @@
+.progress{
+    display: flex;
+    height: 1rem;
+    overflow: hidden;
+    line-height: 0;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    border-radius: 0.25rem;
+    overflow: visible;
+    margin-bottom: 26px;
+    height: 4px;
+}
+.progress-bar{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #007bff;
+    transition: width .6s ease;
+}
+
+.progress .progress-bar {
+    background-color: #ec5b53 ;
+    position: relative;
+    border-radius: 4px;
+    overflow: visible;
+}
+.progress .progress-bar span {
+    background-color: #ec5b53 ;
+    position: absolute;
+    bottom: -20px;
+    font-size: 10px;
+    line-height: 10px;
+    padding: 2px 3px 2px 4px;
+    right: -1.4em;
+    border-radius: 2px;
+}
+
+.fig{
+    display: flex;
+}
+.fig h3{
+    align-self: center;
+}
+.skill-img{
+    width: 50px;
+    max-height: 75px;
+    margin-bottom: 10px;
+}
