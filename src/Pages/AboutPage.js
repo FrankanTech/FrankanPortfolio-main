@@ -3,11 +3,12 @@ import AboutSection from "../Components/AboutComp/AboutSection.js"
 import Timeline from '../Components/AboutComp/Timeline.js'
 import FooterComp from '../Components/FooterComp/FooterComp';
 
-export default class TestPage extends Component {
+export default class AboutPage extends Component {
     componentDidMount(){
         window.scrollTo(0, 0)
     }
-    render() {
+    render() 
+    {
         return (
             <div>
                 <AboutSection/>
@@ -15,6 +16,6 @@ export default class TestPage extends Component {
                 <FooterComp/>
             </div>
             )
-        }
     }
+}
     
