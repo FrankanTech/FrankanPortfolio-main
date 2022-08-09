@@ -8,9 +8,18 @@ export default class Loader extends Component {
         };
 
     }
+
   render() {
+    if(this.state.LoaderState)
+        {
+            console.log("Loading")
+            
+        }
     return (
-      <div>Loader</div>
+        
+      <div>
+        
+      </div>
     )
   }
 }
