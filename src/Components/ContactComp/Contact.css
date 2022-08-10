@@ -183,6 +183,7 @@
     background-color: rgba(211, 18, 18, 0.5);
 }
 #lblmsg{
+    border-radius: 50px 50px 50px 50px;
     visibility: hidden;
     opacity: 0;
     transition: visibility 0s, opacity 0.8s linear;
