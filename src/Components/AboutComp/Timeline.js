@@ -95,7 +95,7 @@ export default class Timeline extends Component {
                 <div className='content-title'>
                         <h2>2013</h2>
                         <h4>-</h4>
-                        <h3>journey To Software Developer</h3>
+                        <h3>Journey To Software Developer</h3>
                     </div>   
                 <p>After finishing secondary school I focused in becoming a Software Developer by studying at MCAST and finishing all the way to a degree qualification or more.</p>
                 </div>
