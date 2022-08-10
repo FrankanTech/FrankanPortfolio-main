@@ -1,17 +1,30 @@
-import React, { Component, useRef } from "react";
+import React, { Component, setState } from "react";
 import emailjs from '@emailjs/browser';
 import "./Contact.css"
 
 export default class Contact extends Component {
+  constructor(props){
+    super(props);
+    this.state ={
+      lblMsg: "",
+      lblClass: "lbl-hide"
+    };
 
+    
+    this.sendEmail = this.sendEmail.bind(this);
+  }
   sendEmail(e) {
     e.preventDefault();
 
-    if(e.target.name.value === "" || e.target.email.value || e.target.message.value)
+    if(e.target.name.value === "" || e.target.email.value === "" || e.target.message.value === "" || e.target.subject.value === "")
     {
-      
+      this.setState({lblMsg: "Please Enter All The Details"});
+      this.setState({lblClass: "lbl-error"});
+      return;
     }
-    console.log(e.target.name.value);
+    else{
+    this.setState({lblMsg: "Message Was Submitted Successfully"});
+    this.setState({lblClass: "lbl-success"}) ;
       emailjs.sendForm('service_sxjaa0m', 'template_1a0i3yf', e.target, '7CtggsP5DMYgjJUz8')
       .then((result) => {
           console.log(result.text);
@@ -19,6 +32,7 @@ export default class Contact extends Component {
           console.log(error.text);
       });
       e.target.reset();
+    }
   };
 
   render() {  
@@ -36,9 +50,11 @@ export default class Contact extends Component {
               </div>
             </div>
             <div className="col-xl-5 col-lg-5">
+              <label id="lblmsg" className={this.state.lblClass}>{this.state.lblMsg}</label>
               <form onSubmit={this.sendEmail} className="contact-wrapper">
                 <input type="text" name="name" placeholder="Full Name" />
                 <input type="email" name="email" placeholder="Email Address" />
+                <input type="text" name="subject" placeholder="Enter Subject" />
                 <textarea
                   name="message"
                   id="message"

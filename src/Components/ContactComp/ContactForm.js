@@ -4,14 +4,30 @@ import Socials from "../FooterComp/SocialsComp.js"
 import ContactImg from "../../Assets/Images/ContactImg.jpg"
 
 export default class ContactForm extends Component {
+  constructor(props){
+    super(props);
+    this.state ={
+      lblMsg: "",
+      lblClass: ""
+    };
+
+    
+    this.sendEmail = this.sendEmail.bind(this);
+  }
   sendEmail(e) {
     e.preventDefault();
 
-    if(e.target.name.value === "" || e.target.email.value || e.target.message.value)
+    if(e.target.name.value === "" || e.target.email.value === "" || e.target.message.value === "" || e.target.subject.value === "")
     {
-      
+      console.log(e.target +" was null");
+      this.setState({lblMsg: "Please Enter All The Details"});
+      this.setState({lblClass: "lbl-error"});
+      return;
     }
-    console.log(e.target.name.value);
+    else{
+    console.log(e.target.name.value);    
+    this.setState({lblMsg: "Message Was Submitted Successfully"}) ;
+    this.setState({lblClass: "lbl-success"}) ;
     emailjs.sendForm('service_sxjaa0m', 'template_1a0i3yf', e.target, '7CtggsP5DMYgjJUz8')
       .then((result) => {
           console.log(result.text);
@@ -20,6 +36,7 @@ export default class ContactForm extends Component {
       });
       e.target.reset();
   };
+}
   render() {
 
     return (
@@ -36,6 +53,8 @@ export default class ContactForm extends Component {
                       <div>
                         <h2>Contact Me</h2>    
                       </div>
+                      
+                      <label id="lblmsg" className={this.state.lblClass}>{this.state.lblMsg}</label>
                       <form onSubmit={this.sendEmail} className="contact-wrapper">
                       <div className='contact-inputs'>                     
                         <input type="text" name="name" placeholder="Your Name"></input>
