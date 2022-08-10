@@ -21,7 +21,7 @@ export default class ResumeMini extends Component {
             </svg>
             <span className="date"> October 2021 - Present</span>
             <h3>Masters in Information Technology & Systems</h3>
-            <p></p>
+            <p>This Master course, provides a number of units that cover the aspect of Networking, Security, Finance and Management </p>
             <span className="school">MCAST</span>
             </div>
             <div className="resume-item mb-4">

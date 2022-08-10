@@ -43,12 +43,6 @@
 .FooterNav ul li a:hover{
     color: #ec5b53;
 }
-.contact-wrapper input:focus-visible{
-    outline: ridge #ec5b53 1px;
-}
-.contact-wrapper textarea:focus-visible{
-    outline: ridge #ec5b53 1px;
-}
 
 @media screen and (max-width:450px) {
     .footer-navbar{

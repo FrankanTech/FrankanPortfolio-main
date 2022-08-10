@@ -137,13 +137,6 @@
     border: 0;
     margin-bottom: 30px;
     box-shadow: 1px 1px 3px 1px rgb(1 1 1 / 50%);
-    
-}
-.contact-inputs input:focus-visible{
-    outline: ridge #ec5b53 1px;
-}
-.contact-inputs textarea:focus-visible{
-    outline: ridge #ec5b53 1px;
 }
 .socials{
     margin-top: auto;
@@ -170,6 +163,9 @@
     content: "\F4C9";
 }
 
+.input-error{    
+    outline: ridge #ec5b53 1px;
+}
 
 .lbl-success{
     visibility: visible !important;

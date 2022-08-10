@@ -8,7 +8,11 @@ export default class ContactForm extends Component {
     super(props);
     this.state ={
       lblMsg: "",
-      lblClass: ""
+      lblClass: "lbl-hide",
+      inputName: "",
+      inputEmail: "",
+      inputSubject: "",
+      inputMessage: ""
     };
 
     
@@ -17,17 +21,42 @@ export default class ContactForm extends Component {
   sendEmail(e) {
     e.preventDefault();
 
-    if(e.target.name.value === "" || e.target.email.value === "" || e.target.message.value === "" || e.target.subject.value === "")
+    if(e.target.name.value === "")
     {
-      console.log(e.target +" was null");
-      this.setState({lblMsg: "Please Enter All The Details"});
-      this.setState({lblClass: "lbl-error"});
-      return;
+      this.setState({inputName: "input-error"});
     }
     else{
-    console.log(e.target.name.value);    
-    this.setState({lblMsg: "Message Was Submitted Successfully"}) ;
-    this.setState({lblClass: "lbl-success"}) ;
+      this.setState({inputName: ""});
+    }
+    if(e.target.email.value === "")
+    {
+      this.setState({inputEmail: "input-error"});
+    }
+    else{
+      this.setState({inputEmail: ""});
+    }
+    if(e.target.message.value === "")
+    {
+      this.setState({inputMessage: "input-error"});
+    }
+    else{
+      this.setState({inputMessage: ""});
+    }
+    if(e.target.subject.value === "")
+    {
+      this.setState({inputSubject: "input-error"});
+    }
+    else{
+      this.setState({inputSubject: ""});      
+    }
+    if(e.target.name.value === "" || e.target.email.value === "" || e.target.message.value === "" || e.target.subject.value === "")
+    {
+      this.setState({lblMsg: "Please Enter All The Details!"});
+      this.setState({lblClass: "lbl-error"});
+    }    
+    else{
+      this.setState({lblMsg: "Message Was Submitted Successfully!"});
+      this.setState({lblClass: "lbl-success"}) ;
     emailjs.sendForm('service_sxjaa0m', 'template_1a0i3yf', e.target, '7CtggsP5DMYgjJUz8')
       .then((result) => {
           console.log(result.text);
@@ -57,10 +86,10 @@ export default class ContactForm extends Component {
                       <label id="lblmsg" className={this.state.lblClass}>{this.state.lblMsg}</label>
                       <form onSubmit={this.sendEmail} className="contact-wrapper">
                       <div className='contact-inputs'>                     
-                        <input type="text" name="name" placeholder="Your Name"></input>
-                        <input type="email" name="email" placeholder="Email Address" />
-                        <input type="text" name="subject" placeholder="Enter Subject" />
-                        <textarea
+                        <input className={this.state.inputName}  type="text" name="name" placeholder="Your Name"></input>
+                        <input className={this.state.inputEmail} type="email" name="email" placeholder="Email Address" />
+                        <input className={this.state.inputSubject} type="text" name="subject" placeholder="Enter Subject" />
+                        <textarea className={this.state.inputMessage} 
                           name="message"
                           id="message"
                           placeholder="Your Message"
