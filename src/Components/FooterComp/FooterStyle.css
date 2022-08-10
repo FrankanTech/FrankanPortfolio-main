@@ -7,7 +7,8 @@
 .FooterClass .container ul{
     display: flex;
     list-style: none;
-    justify-content: center;
+    justify-content: center;    
+    padding-left: 0;
 }
 .FooterClass .container ul li {
     padding: 15px;
