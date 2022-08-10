@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Skills from "./Skills.js"
-import Services from "./Services.js"
+import Services from "../ServicesComp/Services.js"
 
 export default class SkillsComp extends Component {
   render() {

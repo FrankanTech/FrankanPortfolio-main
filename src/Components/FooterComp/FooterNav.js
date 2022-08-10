@@ -17,7 +17,7 @@ export default class FooterNav extends Component {
             <NavLink  className={({ isActive }) => isActive ? "menu-active" : undefined} to="/Resume">Resume</NavLink>
             </li>
             <li>
-            <NavLink className={({ isActive }) => isActive ? "menu-active" : undefined} to="/Skills">Skills</NavLink>
+            <NavLink className={({ isActive }) => isActive ? "menu-active" : undefined} to="/Services">Services</NavLink>
             </li>           
         </ul>
 

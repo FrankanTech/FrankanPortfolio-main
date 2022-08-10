@@ -10,7 +10,7 @@ import Home from "./Pages/Home";
 import ResumePage from "./Pages/ResumePage.js";
 import About from "./Pages/AboutPage"
 import Contact from "./Pages/ContactPage.js"
-import Skills from "./Pages/SkillsPage.js"
+import Services from "./Pages/ServicesPage"
 
 //Components
 import Header from "./Components/HeaderComp/Header.js";
@@ -33,7 +33,7 @@ function App() {
           <Route path="/About" element={<About/>}/>
           <Route path="/Resume" element={<ResumePage timeStamp={new Date().toString()}/>}/>
           <Route path="/Contact" element={<Contact/>}/>
-          <Route path="/Skills" element={<Skills/>}/>
+          <Route path="/Services" element={<Services/>}/>
         </Routes>
       </div>
     </Router>

@@ -19,7 +19,7 @@ export default class Nav extends Component {
             <NavLink  className={({ isActive }) => isActive ? "menu-active" : undefined} to="/Resume">Resume</NavLink>
             </li>
             <li>
-            <NavLink  className={({ isActive }) => isActive ? "menu-active" : undefined} to="/Skills">Skills</NavLink>
+            <NavLink  className={({ isActive }) => isActive ? "menu-active" : undefined} to="/Services">Services</NavLink>
             </li>           
           </ul>
         </nav>

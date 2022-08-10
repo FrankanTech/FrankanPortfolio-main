@@ -1,15 +1,15 @@
 import React, { Component } from 'react'
-import SkillsComp from "../Components/Skills/SkillsComp"
+import Services from "../Components/ServicesComp/Services.js"
 import Footer from "../Components/FooterComp/FooterComp.js"
 
-export default class SkillsPage extends Component {
+export default class ServicesPage extends Component {
   componentDidMount(){
     window.scrollTo(0, 0)
   }
   render() {
     return (
       <div>
-        <SkillsComp/>
+        <Services/>
         <Footer/>
       </div>
     )

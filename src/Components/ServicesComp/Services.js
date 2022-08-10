@@ -1,13 +1,17 @@
 import React, { Component } from 'react'
-import "./SkillsSection.css"
+import "./ServicesStyle.css"
 
 export default class Services extends Component {
   render() {
-    return (
+    return ( 
+    <section className='section-services'>        
+    <div className='services-title'>
+                <h1>services</h1>
+    </div>
       <div data-aos="fade-up" className='ServiceSection'>
         <div className='container'>
-          <div className='ServiceHeader'>
-            <h6 className='ServiceH6'>My Offered Services</h6>
+          <div className='service-header'>
+            <h2>My Offered Services</h2>
           </div>
           <div className="row">
             <div className="col-lg-4 col-md-6">
@@ -49,6 +53,7 @@ export default class Services extends Component {
             </div>
         </div>
       </div>
+      </section>
     )
   }
 }

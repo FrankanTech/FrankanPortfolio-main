@@ -9,13 +9,17 @@ export default class AboutTitle extends Component {
     return (
       <div className="container">
         <div className="row about-fullscreen align-items-center justify-content-between">
+          
+          <div className='text-center'>
+              <h2 className="text-uppercase">About</h2>
+          </div>
             <div data-aos="fade-right" className="col-lg-6 col-md-6 home-about-left">
                 <img className="img-fluid" src={AboutImg} alt=""/>
             </div>
             <div data-aos="fade-left" className="col-lg-6 col-md-6 home-about-right">
-                <h1 className="text-uppercase">Personal Details</h1>
                 <p>
-                  Hi, my name is Frankan Tabone, I am a Software Developer with <strong>2</strong> Years experience. 
+                  Hi, my name is Frankan Tabone, a passionate Software Developer with <strong>2</strong> Years experience.
+                  <br/><br/>I consider myself a cursious individual always striving to be among the best and giving my 100% to achieve my goals.
                 </p>
                 <Skills/>
                 <div className='about-btn'>

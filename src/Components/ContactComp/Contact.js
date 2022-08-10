@@ -31,7 +31,7 @@ export default class Contact extends Component {
               <div className="contact-caption mb-50">
                 <h3>Let's Talk!</h3>
                 <p>
-                  Send me a message via email at <b>Frankan.Tabone@gmail.com</b>. Or fill up this form and I will get in touch with you.
+                  Send me a message via email at <b>Frankan.Tabone@gmail.com</b>. <br/>Or fill up this form and I will get in touch with you.
                 </p>
               </div>
             </div>
@@ -44,7 +44,7 @@ export default class Contact extends Component {
                   id="message"
                   placeholder="Your Message"
                 ></textarea>
-                <button className="submit-btn2" type="submit">
+                <button className="primary-btn submit-btn2" type="submit">
                   Send Message
                 </button>
               </form>

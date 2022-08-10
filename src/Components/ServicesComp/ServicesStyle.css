@@ -1,5 +1,5 @@
 
-.skills-title{
+.services-title{
     display: flex;
     position: relative;
     justify-content: center;
@@ -12,19 +12,19 @@
     margin-bottom: 40px;
 }
 
-.skills-title h1{
+.services-title h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     position: absolute;
     font-size: 8vw;
     color: rgba(1,1,1, 0.8);
 }
-.ServiceH6{
-    margin-right: auto;
-    margin-left: auto;
+.service-header h2{
     text-transform: uppercase;
-    font-size: 2rem;
+    font-size: 2.5rem;
+    color: black;
+    text-align: center;
 }
-.ServiceHeader{
+.service-header{
     display: flex;
     padding-top: 25px;
     padding-bottom: 25px;    

@@ -58,7 +58,7 @@ export default class MobileNav extends Component {
 								<NavLink  className={({ isActive }) => isActive ? "menu-active" : undefined} to="/Resume" onClick={this.onMobileToggle}>Resume</NavLink>
 							</li>
 							<li>
-								<NavLink  className={({ isActive }) => isActive ? "menu-active" : undefined} to="/Skills" onClick={this.onMobileToggle}>Skills</NavLink>
+								<NavLink  className={({ isActive }) => isActive ? "menu-active" : undefined} to="/Services" onClick={this.onMobileToggle}>Services</NavLink>
 							</li>
 							<li className='contact-mob'>
 								<NavLink className={"primary-btn text-uppercase" + (({ isActive }) => isActive ? "menu-active" : undefined)} to="Contact" onClick={this.onMobileToggle}>Contact Me</NavLink>        

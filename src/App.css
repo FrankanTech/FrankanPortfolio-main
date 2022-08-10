@@ -25,6 +25,10 @@ p{
 a{
     text-decoration: none;
 }
+strong{
+    font-weight: bold !important;
+    font-size: 18px;
+}
 .primary-btn {
     text-align: center;
     background: -webkit-linear-gradient(0deg, #ec5b53 0%, #C33149 100%);

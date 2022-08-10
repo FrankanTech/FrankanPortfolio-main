@@ -9,7 +9,7 @@ import "./SkillsStyle.css"
 export default class Skills extends Component {
     render() {
         return (
-            <div className="my-5">
+            <div className="my-3">
             <div className="skill">
                 <div className='fig'>
                     <img src={cSharp} className="skill-img"/>
