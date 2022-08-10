@@ -3,6 +3,9 @@
     padding-bottom: 60px;
     /*background-color: #F2DFE3;*/
 }
+.contact-caption{
+    text-align: center;
+}
 .contact-caption h3{
     font-size: 48px;
     display: block;
