@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import Section from "../Components/SectionComp/Section.js";
 import AboutBody from "../Components/AboutComp/AboutBody"
-import Projects from '../Components/ProjectsComp/Projects';
 import ResumeMini from "../Components/ResumeComp/ResumeMini.js"
 import FooterComp from '../Components/FooterComp/FooterComp';
 

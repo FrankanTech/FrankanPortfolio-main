@@ -53,6 +53,26 @@ strong{
     color:white;
 }
 
+.error-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+.error-section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.error-section img{
+    max-height: 350px;
+    max-width: 350px;
+    margin-right: auto;
+    margin-left: auto;
+}
 @media (min-width: 992px)
 {
     .container{

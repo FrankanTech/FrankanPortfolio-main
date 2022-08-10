@@ -9,7 +9,7 @@ export default class Services extends Component {
     return ( 
     <section className='section-services'>        
     <div className='services-title'>
-                <h1>services</h1>
+                <h1>Services</h1>
     </div>
       <div data-aos="fade-up" className='ServiceSection'>
         <div className='container'>

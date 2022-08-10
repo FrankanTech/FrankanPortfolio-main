@@ -6,11 +6,12 @@ import "aos/dist/aos.css"
 import {BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 //Pages
-import Home from "./Pages/Home";
+import Home from "./Pages/Home.js";
 import ResumePage from "./Pages/ResumePage.js";
-import About from "./Pages/AboutPage"
+import About from "./Pages/AboutPage.js"
 import Contact from "./Pages/ContactPage.js"
-import Services from "./Pages/ServicesPage"
+import Services from "./Pages/ServicesPage.js"
+import Error from "./Pages/ErrorPage.js"
 
 //Components
 import Header from "./Components/HeaderComp/Header.js";
@@ -28,14 +29,15 @@ function App() {
 
   return (
     <Router>
-      <div className="">  
+      <div className="">    
         <Header/> 
         <Routes>
           <Route path="/" element={<Home key={Math.random}/>}/>
           <Route path="/About" element={<About key={Math.random}/>}/>
           <Route path="/Resume" element={<ResumePage key={Math.random}/>}/>
           <Route path="/Contact" element={<Contact key={Math.random}/>}/>
-          <Route path="/Services" element={<Services key={Math.random}/>}/>
+          <Route path="/Services" element={<Services key={Math.random}/>}/>   
+          <Route path="*" element={<Error/>} />     
         </Routes>
       </div>
     </Router>
