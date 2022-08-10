@@ -41,6 +41,9 @@
     text-align: center;
     margin-top: 60px;
 }
+.service-img{
+    height: 100px;
+}
 .single-services h4 {
     margin-top: 30px;
     margin-bottom: 20px;
@@ -63,7 +66,7 @@
     text-decoration: none;
 }
 
-.single-services h4:hover{
+.single-services:hover h4{
     color: #ec5b53;
     font-size: 1.7rem;
     transition: 0.3s ease 0s;

@@ -1,4 +1,7 @@
 import React, { Component } from 'react'
+import FrontEnd from "../../Assets/Images/FrontEnd.png"
+import BackEnd from "../../Assets/Images/Back-End.png"
+import PortfolioImg from "../../Assets/Images/ImgPortfolio.png"
 import "./ServicesStyle.css"
 
 export default class Services extends Component {
@@ -16,7 +19,7 @@ export default class Services extends Component {
           <div className="row">
             <div className="col-lg-4 col-md-6">
               <div className="single-services">
-              <span className="lnr lnr-pie-chart"></span>
+              <img className='service-img' src={FrontEnd}/>
               <div className='title-space'><a href="#"><h4>Front-End Development</h4></a></div>
                 <p>
                   Building a responsive Front-End website with a modern looking style.
@@ -25,7 +28,7 @@ export default class Services extends Component {
               </div>
               <div className="col-lg-4 col-md-6">
               <div className="single-services">
-              <span className="lnr lnr-laptop-phone"></span>
+              <img className='service-img' src={BackEnd}/>
               <div className='title-space'><a href="#"><h4>Back-End Development</h4></a></div>
                 <p>
                   Integrating or Developing a Back-End API service with performance and effeciency in mind. 
@@ -34,7 +37,7 @@ export default class Services extends Component {
               </div>
               <div className="col-lg-4 col-md-6">
               <div className="single-services">
-              <span className="lnr lnr-camera"></span>
+              <img className='service-img' src={PortfolioImg}/>
               <div className='title-space'><a href="#"><h4>Portfolio Development</h4></a></div>
                 <p>
                   Building a Portfolio website with a variety of features that is easy to modify.

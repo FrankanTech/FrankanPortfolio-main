@@ -16,7 +16,8 @@ export default class Timeline extends Component {
                         <h4>-</h4>
                         <h3>Masters In Information & Technology</h3>
                     </div>                
-                <p>On October 2021 I started the journy to advance my technological knowledge by starting a Master's degree at MCAST.</p>
+                <p>On October 2021 I decided to advance my technological knowledge by taking a step further in education. I decided to pursue
+                    a Masters In Information & Technology offered by MCAST..</p>
                 </div>
             </div>
             <div data-aos="fade-left" className="container right">
@@ -26,7 +27,7 @@ export default class Timeline extends Component {
                         <h4>-</h4>
                         <h3>Apco Pay</h3>
                     </div>   
-                <p>Started working with Ipyson Ltd with the Apco Pay team as a Software Developer..</p>
+                <p>Started working with Ipyson Ltd with the Apco Pay team as a Software Developer.</p>
                 </div>
             </div>
             <div data-aos="fade-right" className="container left">
@@ -86,7 +87,7 @@ export default class Timeline extends Component {
                         <h4>-</h4>
                         <h3>Started Bachelor's In Software Development</h3>
                     </div>   
-                <p>In 2018 I started my Bachelor's journy to become a Software Development graduate at MCAST.</p>
+                <p>In 2018 I started my Bachelor's journey to become a Software Development graduate at MCAST.</p>
                 </div>
             </div>
             <div data-aos="fade-right" className="container left">
@@ -94,9 +95,9 @@ export default class Timeline extends Component {
                 <div className='content-title'>
                         <h2>2013</h2>
                         <h4>-</h4>
-                        <h3>Journy To Software Developer</h3>
+                        <h3>journey To Software Developer</h3>
                     </div>   
-                <p>After finishing secondary school I started my Journy to become a Software Developer by studying at MCAST and finishing all the way to a degree qualification or more.</p>
+                <p>After finishing secondary school I focused in becoming a Software Developer by studying at MCAST and finishing all the way to a degree qualification or more.</p>
                 </div>
             </div>          
             </div>
