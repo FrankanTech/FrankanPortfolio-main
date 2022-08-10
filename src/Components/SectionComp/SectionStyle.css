@@ -63,8 +63,11 @@
 }
 @media (max-width: 767px)
 {
+    .fullscreen{
+        align-items: unset !important;
+    }
     .banner-left {
-        margin-top: 25%;
+        margin-top: 15%;
     }
 }
 @media (max-width: 991px)

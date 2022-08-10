@@ -47,7 +47,7 @@ export default class ContactForm extends Component {
                           placeholder="Your Message"
                         ></textarea>
                     </div>
-                    <button type="submit" className='submit-btn2' >Submit</button>
+                    <button type="submit" className='primary-btn submit-btn2' >Submit</button>
                     </form>
                   </div>
                 </div>
