@@ -75,7 +75,7 @@ export default class ContactForm extends Component {
                   <div className='col-lg-6 col-12 card card-side'>
                     <h2>Let's Talk</h2>
                     <p>I will get back to you as soon as possible!</p>
-                    <img src={ContactImg} style={{maxHeight: '350px'}}/>
+                    <img src={ContactImg} style={{maxHeight: '300px'}}/>
                     <Socials/>
                   </div>
                   <div className='col-lg-6 col-12 card'>
