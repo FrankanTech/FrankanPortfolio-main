@@ -19,7 +19,7 @@ export default class Services extends Component {
               <span className="lnr lnr-pie-chart"></span>
               <div className='title-space'><a href="#"><h4>Front-End Development</h4></a></div>
                 <p>
-                  I can help in building a responsive and eye-catching UI interface.
+                  Building a responsive Front-End website with a modern looking style.
                 </p>
               </div>
               </div>
@@ -28,7 +28,7 @@ export default class Services extends Component {
               <span className="lnr lnr-laptop-phone"></span>
               <div className='title-space'><a href="#"><h4>Back-End Development</h4></a></div>
                 <p>
-                  I can integrate your web application with an API or build a service from scratch.
+                  Integrating or Developing a Back-End API service with performance and effeciency in mind. 
                 </p>
               </div>
               </div>
@@ -37,16 +37,7 @@ export default class Services extends Component {
               <span className="lnr lnr-camera"></span>
               <div className='title-space'><a href="#"><h4>Portfolio Development</h4></a></div>
                 <p>
-                  I can help build your own Portfolio website and ensure a top quality design.
-                </p>
-              </div>
-              </div>              
-              <div className="col-lg-4 col-md-6">
-              <div className="single-services">
-              <span className="lnr lnr-rocket"></span>
-              <div className='title-space'><a href="#"><h4>Consultation</h4></a></div>
-                <p>
-                  I can guide you if in need for consultation regarding technologies or which software is best to use.
+                  Building a Portfolio website with a variety of features that is easy to modify.
                 </p>
               </div>
               </div>

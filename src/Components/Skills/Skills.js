@@ -4,6 +4,7 @@ import Html from "../../Assets/Images/Html.png";
 import Css from "../../Assets/Images/Css.png";
 import JavaScript from "../../Assets/Images/JavaScript.png";
 import SQL from "../../Assets/Images/sql.png";
+import ReactIcon from "../../Assets/Images/ReactIcon.png";
 import "./SkillsStyle.css"
 
 export default class Skills extends Component {
@@ -21,6 +22,17 @@ export default class Skills extends Component {
             </div>
             </div>   
             </div>  
+            <div className="skill">
+                <div className='fig'>
+                    <img src={ReactIcon} className="skill-img"/>
+                    <h3>React</h3>
+                </div>
+            <div className="progress">
+            <div data-aos="fade-right" className="progress-bar" role="progressbar" style={{width: "84%"}} aria-valuenow="84" aria-valuemin="0" aria-valuemax="100">
+            <span>84%</span>
+            </div>
+            </div>   
+            </div> 
                 <div className="skill">
                 <div className='fig'>
                         <img src={Html} className="skill-img"/>
@@ -49,8 +61,8 @@ export default class Skills extends Component {
                         <h3>JavaScript</h3>
                     </div>
                 <div className="progress">
-                <div data-aos="fade-right" className="progress-bar" role="progressbar" style={{width: "88%"}} aria-valuenow="88" aria-valuemin="0" aria-valuemax="100">
-                <span>88%</span>
+                <div data-aos="fade-right" className="progress-bar" role="progressbar" style={{width: "86%"}} aria-valuenow="86" aria-valuemin="0" aria-valuemax="100">
+                <span>86%</span>
                 </div>
                 </div>
                 </div>           
