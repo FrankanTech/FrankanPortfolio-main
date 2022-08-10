@@ -139,7 +139,7 @@
 }
 
 .work-title h2{
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     font-weight: bold;
     color: black;
 }
@@ -227,7 +227,7 @@
         margin-right: 15px;
     }
     .resume-title h1{
-        font-size: 12vh;
+        font-size: 10vh;
     } 
     .desc-head{
         width: 100%;

@@ -57,7 +57,7 @@
 }
 @media screen and (max-width:550px) {
     .banner-left h1{
-        font-size: 28px;
+        font-size: 5vh;
     }
     .main-area .fullscreen{
         flex-direction: column-reverse;
