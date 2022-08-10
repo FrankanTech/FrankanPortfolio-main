@@ -21,6 +21,7 @@
 }
 
 .banner-left h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
     font-weight: bold;
     text-align: center;
@@ -34,10 +35,13 @@
     font-size: 1.5rem;
 }
 .banner-left h1 {
+    font-family: 'Courier New', Courier, monospace;
     margin: 20px 0;
     font-size: 60px;
     font-weight: bold;
-    color: #f67171;
+    background: -webkit-linear-gradient(0deg, #f67171 20%, #C33149 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
     text-transform: uppercase;
     text-align: center;
 }
