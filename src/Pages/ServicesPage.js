@@ -3,6 +3,12 @@ import Services from "../Components/ServicesComp/Services.js"
 import Footer from "../Components/FooterComp/FooterComp.js"
 
 export default class ServicesPage extends Component {
+  constructor(props){
+    super(props);
+    this.state = {
+        key: "" //Useless, used for reloading
+    };
+}
   componentDidMount(){
     window.scrollTo(0, 0)
   }

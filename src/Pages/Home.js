@@ -8,6 +8,9 @@ import FooterComp from '../Components/FooterComp/FooterComp';
 export default class Home extends Component {
     constructor(props){
         super(props);
+        this.state = {
+            key: "" //Useless, used for reloading
+        };
     }
 componentDidMount(){
     window.scrollTo(0, 0)

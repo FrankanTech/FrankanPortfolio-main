@@ -24,8 +24,8 @@ export default class ResumeWork extends Component {
                         </div>
                         <div className='spacer-full'></div>
                         <div className='work-list'>
-                            {this.props.Skills.map(element => {                                
-                                return <Skill title={element.Title} WorkSkills={element.List}/>
+                            {this.props.Skills.map((Skills, index) => {                                
+                                return <Skill key={index} title={Skills.Title} WorkSkills={Skills.List}/>
                             })}                                                                   
                         </div>
                     </div>

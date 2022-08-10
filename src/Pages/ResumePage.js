@@ -3,6 +3,12 @@ import Resume from "../Components/ResumeComp/Resume"
 import FooterComp from '../Components/FooterComp/FooterComp';
 
 export default class ResumePage extends Component {
+  constructor(props){
+    super(props);
+    this.state = {
+        key: "" //Useless, used for reloading
+    };
+}
   componentDidMount(){
   window.scrollTo(0, 0)
 }

@@ -1,6 +1,12 @@
 import React, { Component } from 'react'
 
 export default class ErrorPage extends Component {
+  constructor(props){
+    super(props);
+    this.state = {
+        key: "" //Useless, used for reloading
+    };
+}
   render() {
     return (
         <div className='error-page'>

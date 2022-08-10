@@ -9,8 +9,8 @@ export default class ResumeSkills extends Component {
       <div>
         <h4>{this.props.title}</h4>
         <ul>
-            {this.props.WorkSkills.map(skill =>{
-                return <li key={skill}>{skill}</li>
+            {this.props.WorkSkills.map((skill, index) =>{
+                return <li key={index}>{skill}</li>
             })}
         </ul>
       </div>
