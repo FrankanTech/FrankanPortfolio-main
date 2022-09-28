@@ -20,7 +20,7 @@ export default class Services extends Component {
             <div className="col-lg-4 col-md-6">
               <div className="single-services">
               <img className='service-img' src={FrontEnd}/>
-              <div className='title-space'><a href="#"><h4>Front-End Development</h4></a></div>
+              <div className='title-space' id='frontend'><h4>Front-End Development</h4></div>
                 <p>
                   Building a responsive Front-End website with a modern looking style.
                 </p>
@@ -29,16 +29,16 @@ export default class Services extends Component {
               <div className="col-lg-4 col-md-6">
               <div className="single-services">
               <img className='service-img' src={BackEnd}/>
-              <div className='title-space'><a href="#"><h4>Back-End Development</h4></a></div>
+              <div className='title-space' id='backend'><h4>Back-End Development</h4></div>
                 <p>
-                  Integrating or Developing a Back-End API service with performance and effeciency in mind. 
+                  Integrating or Developing a Back-End API service with performance and efficiency in mind. 
                 </p>
               </div>
               </div>
               <div className="col-lg-4 col-md-6">
               <div className="single-services">
               <img className='service-img' src={PortfolioImg}/>
-              <div className='title-space'><a href="#"><h4>Portfolio Development</h4></a></div>
+              <div className='title-space'><h4>Portfolio Development</h4></div>
                 <p>
                   Building a Portfolio website with a variety of features that is easy to modify.
                 </p>

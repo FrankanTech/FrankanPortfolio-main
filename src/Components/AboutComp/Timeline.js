@@ -16,8 +16,7 @@ export default class Timeline extends Component {
                         <h4>-</h4>
                         <h3>Masters In Information & Technology</h3>
                     </div>                
-                <p>On October 2021 I decided to advance my technological knowledge by taking a step further in education. I decided to pursue
-                    a Masters In Information & Technology offered by MCAST..</p>
+                <p>On October 2021 I made it my priority to advance my technological expertise by taking a step further in my education. I pursued a Masters in Information & Technology at MCAST where I am benefiting from the various units thought.</p>
                 </div>
             </div>
             <div data-aos="fade-left" className="container right">
@@ -47,7 +46,7 @@ export default class Timeline extends Component {
                         <h4>-</h4>
                         <h3>Bacehlor of Science In Software Development</h3>
                     </div>   
-                <p>I reached my goal in becoming a Software Development graduate.</p>
+                <p>Achieved my goal of becoming a Software Development graduate.</p>
                 </div>
             </div>
             <div data-aos="fade-right" className="container left">
@@ -85,9 +84,9 @@ export default class Timeline extends Component {
                 <div className='content-title'>
                         <h2>2017</h2>
                         <h4>-</h4>
-                        <h3>Started Bachelor's In Software Development</h3>
+                        <h3>Beginning of Bachelor's In Software Development</h3>
                     </div>   
-                <p>In 2018 I started my Bachelor's journey to become a Software Development graduate at MCAST.</p>
+                <p>Began my journey to become a Software Development graduate at MCAST.</p>
                 </div>
             </div>
             <div data-aos="fade-right" className="container left">
@@ -97,7 +96,7 @@ export default class Timeline extends Component {
                         <h4>-</h4>
                         <h3>Journey To Software Developer</h3>
                     </div>   
-                <p>After finishing secondary school I focused in becoming a Software Developer by studying at MCAST and finishing all the way to a degree qualification or more.</p>
+                <p>After finishing Secondary school I focused on becoming a Software Developer by studying at MCAST.</p>
                 </div>
             </div>          
             </div>

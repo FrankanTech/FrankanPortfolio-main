@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Resume from "../Components/ResumeComp/Resume"
 import FooterComp from '../Components/FooterComp/FooterComp';
+import Loader from "../Components/LoaderComp/Loader.js";
 
 export default class ResumePage extends Component {
   constructor(props){
@@ -15,7 +16,9 @@ export default class ResumePage extends Component {
   render() {
     return (
       <div>
-        <Resume/>
+
+          {/* <Loader/> */}
+          <Resume/>
           <FooterComp/>
       </div>
     )

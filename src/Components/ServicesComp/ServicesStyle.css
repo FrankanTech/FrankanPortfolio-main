@@ -53,6 +53,8 @@
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
     font-family:'Times New Roman', Times, serif;
+    color: black;
+    cursor: pointer;
 }
 .single-services p {
     max-width: 318px;

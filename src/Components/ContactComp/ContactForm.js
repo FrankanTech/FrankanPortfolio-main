@@ -65,6 +65,8 @@ export default class ContactForm extends Component {
       });
       e.target.reset();
   };
+
+  document.getElementById("lblmsg").scrollIntoView({behavior: "smooth", block: "center"});
 }
   render() {
 
@@ -95,7 +97,7 @@ export default class ContactForm extends Component {
                           placeholder="Your Message"
                         ></textarea>
                     </div>
-                    <button type="submit" className='primary-btn submit-btn2' >Submit</button>
+                    <button type="submit" className='primary-btn submit-btn2'>Submit</button>
                     </form>
                   </div>
                 </div>

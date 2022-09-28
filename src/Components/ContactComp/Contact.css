@@ -93,6 +93,7 @@
 .contact-form{
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
 }
 .card{    
     padding: 25px;

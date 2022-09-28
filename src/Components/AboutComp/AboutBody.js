@@ -19,8 +19,8 @@ export default class AboutTitle extends Component {
             <div data-aos="fade-left" className="col-lg-6 col-md-6 home-about-right">
                 <p>
                   Hi, my name is Frankan Tabone, a passionate Software Developer with <strong>2</strong> Years experience.
-                  <br/><br/>I am a curious individual always striving to learn and to be among the best by giving more than a <strong>100%</strong> to achieve my goals.
-                  <br/><br/>I consider myself to be a very good team player, where we share our goals to produce the best version of a product.
+                  <br/><br/>I am a curious individual who is always striving to learn and perform among the best in my profession by giving more than <strong>100%</strong> to achieve my goals.
+                  <br/><br/>I consider myself to be an excellent team player; I thrive off an environment where we can work together to produce the best version of a product.
                 </p>
                 <Skills/>
                 <div className='about-btn'>

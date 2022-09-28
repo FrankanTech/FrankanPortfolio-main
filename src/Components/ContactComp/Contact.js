@@ -64,6 +64,8 @@ export default class Contact extends Component {
         });
         e.target.reset();
       }
+
+  document.getElementById("lblmsg").scrollIntoView({behavior: "smooth", block: "center"});
   };
 
   render() {  

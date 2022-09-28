@@ -1,4 +1,4 @@
-import { useEffect} from "react"
+import { useEffect, useState} from "react"
 import logo from './logo.svg';
 import './App.css';
 import Aos from 'aos';
@@ -12,7 +12,7 @@ import About from "./Pages/AboutPage.js"
 import Contact from "./Pages/ContactPage.js"
 import Services from "./Pages/ServicesPage.js"
 import Error from "./Pages/ErrorPage.js"
-
+import Loader from "../src/Components/LoaderComp/Loader.js"
 //Components
 import Header from "./Components/HeaderComp/Header.js";
 //todo: Increase clickable area for X Marker
@@ -21,6 +21,7 @@ import Header from "./Components/HeaderComp/Header.js";
  
 
 function App() {
+
   useEffect(() => {
     Aos.init({once: false, duration: 2000});
    // Aos.refresh();
@@ -30,6 +31,7 @@ function App() {
   return (
     <Router>
       <div className="">    
+          <Loader/>
         <Header/> 
         <Routes>
           <Route path="/" element={<Home key={Math.random}/>}/>

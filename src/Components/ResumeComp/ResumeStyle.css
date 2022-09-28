@@ -144,9 +144,10 @@
     color: black;
 }
 .work-title h3{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #777777;
     align-self: center;
+    white-space: nowrap;
 }
 
 .work-list h4{
@@ -184,7 +185,7 @@
     transition: .3s all ease;
     border: 4px solid transparent;
     border-radius: 7px;
-    height: 240px;
+    min-height: 240px;
 }
 .resume-item .date {
     display: inline-block;
