@@ -12,23 +12,7 @@
 }
 
 .resume-title{
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    height: 35vh;
     background-image: url("/src/Assets/Images/BackTest.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-bottom: 40px;
-}
-
-.resume-title h1{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    position: absolute;
-    font-size: 8vw;
-    color: rgba(1,1,1, 0.8);
 }
 .resume-title h2{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -227,9 +211,6 @@
         margin-left: 15px;
         margin-right: 15px;
     }
-    .resume-title h1{
-        font-size: 10vh;
-    } 
     .desc-head{
         width: 100%;
         margin-bottom: 20px;

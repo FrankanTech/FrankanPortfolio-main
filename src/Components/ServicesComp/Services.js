@@ -8,7 +8,7 @@ export default class Services extends Component {
   render() {
     return ( 
     <section className='section-services'>        
-    <div className='services-title'>
+    <div className='title-section services-title'>
                 <h1>Services</h1>
     </div>
       <div data-aos="fade-up" className='ServiceSection'>

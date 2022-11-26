@@ -12,7 +12,7 @@ export default class Resume extends Component {
     render() {
         return (
             <section className='section-resume'>
-                <div className='resume-title'>
+                <div className='title-section resume-title'>
                     <h1>Resume</h1>
                 </div>
             <Decor/>
