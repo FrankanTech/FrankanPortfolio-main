@@ -35,19 +35,6 @@
     color: #ec5b53;
 }
 
-@media (max-width: 991px)
-{
-    #nav-menu-container {
-        display: none;
-    }
-    #mobile-nav-toggle {
-        display: inline !important;
-    }
-    .ContactMe{
-        display: none;
-    }
-}
-
 .lnr {
     font-family: 'Linearicons-Free';
     font-style: normal;
