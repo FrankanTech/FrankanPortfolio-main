@@ -140,6 +140,12 @@
     position: relative;
     height: 30px;
 }
+.MobileToggle .list-container li i{
+    position: absolute;
+    left: 17%;
+    color: white;
+    font-size: 22px;
+}
 .MobileToggle .list-container li a{
     text-decoration: none;
     font-weight: bold;
@@ -158,6 +164,9 @@
 {    
     .mobile-nav-toggle {
         display: block !important;
+    }
+    .MobileToggle{
+        width: 64%;
     }
 }
 @media (max-width: 468px)

@@ -3,6 +3,7 @@ import {Link, NavLink } from "react-router-dom"
 import PropTypes from "prop-types"
 import "./NavStyle.css"
 import "./MobileNavStyle.css"
+import { BiHomeAlt, BiCommentDots, BiInfoCircle, BiBriefcaseAlt } from "react-icons/bi";
 
 export default class MobileNav extends Component {
 	constructor(){
@@ -49,15 +50,19 @@ export default class MobileNav extends Component {
 					<div className={"MobileToggle " +this.state.Name}>
 						<ul className='container list-container'>
 							<li>
+								<i><BiHomeAlt/></i>
 								<NavLink className={({ isActive }) => isActive ? "menu-active" : undefined} to="/" onClick={this.onMobileToggle}>Home</NavLink>							
 							</li>
 							<li>
+								<i><BiInfoCircle/></i>
 								<NavLink  className={({ isActive }) => isActive ? "menu-active" : undefined} to="/About" onClick={this.onMobileToggle}>About</NavLink>
 							</li>
 							<li>
+								<i><BiCommentDots/></i>
 								<NavLink  className={({ isActive }) => isActive ? "menu-active" : undefined} to="/Resume" onClick={this.onMobileToggle}>Resume</NavLink>
 							</li>
 							<li>
+								<i><BiBriefcaseAlt/></i>
 								<NavLink  className={({ isActive }) => isActive ? "menu-active" : undefined} to="/Services" onClick={this.onMobileToggle}>Services</NavLink>
 							</li>
 							<li className='contact-mob'>
