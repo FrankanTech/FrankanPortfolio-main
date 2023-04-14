@@ -9,6 +9,16 @@ export default class Timeline extends Component {
         <div className='container'>
         <h1>My Journey</h1>
         <div className="timeline">
+        <div data-aos="fade-left" className="container right">
+                <div className="content">
+                <div className='content-title'>
+                        <h2>2022</h2>
+                        <h4>-</h4>
+                        <h3>Andaria</h3>
+                    </div>   
+                <p>Started working with Andaria Financial services as a Fullstack Software Developer.</p>
+                </div>
+            </div>
             <div data-aos="fade-right" className="container left">
                 <div className="content">
                     <div className='content-title'>

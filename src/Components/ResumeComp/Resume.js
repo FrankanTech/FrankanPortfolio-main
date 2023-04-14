@@ -21,7 +21,43 @@ export default class Resume extends Component {
             <div className='spacer'></div>
             <h3>WORK EXPERIENCE</h3>
             <Work
-            WorkDate="11/01/2021 – CURRENT – Marsa, Malta" 
+            WorkDate="10/06/2022 – Present – Santa Venera, Malta" 
+            WorkTitle="Andaria" WorkPos="Fullstack Software Developer" 
+            WorkDesc="Andaria financial services provides access to over 100 global currencies, allowing businesses to conduct transactions with ease and efficiency worldwide. With real-time foreign exchange, converting money is quick and hassle-free, eliminating the need to navigate complex banking procedures."                    
+            Skills = 
+            { 
+                [{Key: 1, Title:"Asp.Net", List:[
+                "Implementing REST API services, for client and internal use.", 
+                "Integrated Azure services, such as key vault to be used to access sensitive information.",
+                "Integrated EF Core, along with migration of database to keep the database up to date.",
+                "Designed the test cases for pre deployment.",
+                "Implemented Microservices such as Azure Functions."
+                ]},
+
+                {Key: 2,Title:"DevOps", List:[
+                "Implemented the Azure Pipelines/Release for continuous integration deploy of the API and Azure Functions to Azure.", 
+                "Implementing different release stages either for dev or production.",
+                "Deployed Nuget packages that are updated and used internally.",
+                "Automated build, testing and integration.",
+                "Configuring build pipelines before being released to production."]},
+
+                {Key: 3, Title:"Azure", List:[
+                "Deploying to App services, making sure that the app is up and running with the correct configurations.", 
+                "Integrated application insights for additional logging of processes.", 
+                "Using the Application management gateway to implement API services which connects third-party APIs to our internal API.",
+                "Using Azure functions to develop micro services",
+                "Using Logic apps to trigger the Azure functions, or to be triggered by Event grids",
+                "Managing SQL server database.",
+                "Securing sensitive information via Key vault"]},
+
+                {Key: 4,Title:"SQL", List:[
+                "Handling of SQL databases.", 
+                "CRUD of tables and rows."
+                ]}]
+            }                    
+            />
+            <Work
+            WorkDate="11/01/2021 – 06/10/2022 – Marsa, Malta" 
             WorkTitle="Apco Pay" WorkPos="Software Developer" 
             WorkDesc="Apcopay is a fully integrated payments solution. An all-in-one platform that provides clients with all they need to cater for multi-channel and multi-currency payment options through a single interface."                    
             Skills = 

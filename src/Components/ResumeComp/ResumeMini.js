@@ -51,9 +51,18 @@ export default class ResumeMini extends Component {
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" className="bi bi-calendar" viewBox="0 0 16 16">
               <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
             </svg>
-            <span className="date"> January 2021 - Present</span>
+            <span className="date"> October 2022 - Present</span>
+            <h3>Fullstack Software Developer</h3>
+            <p>Working as a Fullstack Software Developer in the financial side, I implemented API for clients as well as using Azure cloud technologies.</p>
+            <span className="school">Andaria</span>
+            </div>
+            <div className="resume-item mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" className="bi bi-calendar" viewBox="0 0 16 16">
+              <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+            </svg>
+            <span className="date"> January 2021 - October 2022</span>
             <h3>Software Developer</h3>
-            <p>Working as a Software Developer in the finance business. Mostly as a Back-End Developer, integrating APIs and integrating with third-party software.</p>
+            <p>Working as a Software Developer in the finance business. As a Back-End Developer I integrated APIs and third-party software.</p>
             <span className="school">Apco Pay</span>
             </div>
             <div className="resume-item mb-4">
