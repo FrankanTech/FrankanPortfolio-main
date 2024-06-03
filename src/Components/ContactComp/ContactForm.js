@@ -57,7 +57,7 @@ export default class ContactForm extends Component {
     else{
       this.setState({lblMsg: "Message Was Submitted Successfully!"});
       this.setState({lblClass: "lbl-success"}) ;
-    emailjs.sendForm('service_sxjaa0m', 'template_1a0i3yf', e.target, '7CtggsP5DMYgjJUz8')
+    emailjs.sendForm('service_r9npd27', 'template_1a0i3yf', e.target, '7CtggsP5DMYgjJUz8')
       .then((result) => {
           console.log(result.text);
       }, (error) => {

@@ -15,7 +15,7 @@ export default class FooterComp extends Component {
             <Contact/>
             <Nav/>
             <Socials/>
-          <div className="CopyRight">Copyright ©2022 All rights reserved by <b>Frankan Tabone</b></div>
+          <div className="CopyRight">Copyright ©2024 All rights reserved by <b>Frankan Tabone</b></div>
           </div>
       </section>
     )
