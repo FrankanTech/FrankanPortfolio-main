@@ -29,8 +29,10 @@ function App() {
 
 
   return (
+    <>
+    
+    <Analytics/>
     <Router>
-      <Analytics/>
       <div className="">    
           <Loader/>
         <Header/> 
@@ -44,6 +46,7 @@ function App() {
         </Routes>
       </div>
     </Router>
+    </>
   );
 }
 
