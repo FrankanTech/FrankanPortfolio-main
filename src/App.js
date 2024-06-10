@@ -4,7 +4,7 @@ import './App.css';
 import Aos from 'aos';
 import "aos/dist/aos.css"
 import {BrowserRouter as Router, Route, Routes } from 'react-router-dom'
-
+import { Analytics } from "@vercel/analytics/react"
 //Pages
 import Home from "./Pages/Home.js";
 import ResumePage from "./Pages/ResumePage.js";
@@ -30,6 +30,7 @@ function App() {
 
   return (
     <Router>
+      <Analytics/>
       <div className="">    
           <Loader/>
         <Header/> 
